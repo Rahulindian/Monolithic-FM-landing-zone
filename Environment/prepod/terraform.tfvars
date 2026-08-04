@@ -8,8 +8,8 @@ resource_group_name = {
     rg_name     = "rg-200720262"
     rg_location = "southafricanorth"
   }
-  rg4 = {
-    rg_name     = "rg-200720264"
+  rg5 = {
+    rg_name     = "rg-200720266"
     rg_location = "southafricanorth"
   }
 }
