@@ -1,0 +1,37 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+plan.json
+crash.log
+crash.*.log
+
+# Terraform provider binaries (large files - never commit)
+**/.terraform/providers/**
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Variable files
+*.tfvars
+!terraform.tfvars.example
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Lock file (optional - usually KEEP this)
+# .terraform.lock.hcl
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
